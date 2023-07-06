@@ -10,13 +10,15 @@
       <!-- Bootstrap CSS -->
    
       <!--Css style-->
-      <link rel="stylesheet" href="/Pw_CodeCaffé/css/style.css">
+      <link rel="stylesheet" href="/css/style.css">
   <!--Icono-->
-    <link rel="shortcut icon" href="Pw_CodeCaffé/img/iconos/ico.png" />
+    <link rel="shortcut icon" href="/img/iconos/ico.png" />
     <title>CodeCaffe</title>
 </head>
-<body>
+<body >
+  <div id="particles-js"></div> 
     <header>
+      
         <div class="menu container">
             
             <label for="menu">
@@ -28,23 +30,13 @@
             </label> 
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                  </ul>
+                  <a class="nav-link active" aria-current="page" href="/html/index.html">Principal</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link active" aria-current="page" href="/html/proyect.html">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">OnlyFan</a>
                 </li>
               </ul>
             
@@ -58,25 +50,32 @@
                  tecnología, dedicados a ofrecer soluciones innovadoras y eficientes para satisfacer 
                  las necesidades de nuestros clientes.
             </p>
-            <a href="#" class="btn-1">Mas</a>
-        </div>
-    </header>
-    <section class="contenedor sobre-nosostros">
-        <h2>Nosotros</h2>
-        <div class="contenedor-sobre-nosotros">
-            <img src="/img/cf2.jpg" alt="" width="530" height="510">
-            <div class="texto-sobre-nosotros">
-                <h3><span>1</span> Desarrollo de Software a Medida</h3>
-                <p>Creamos soluciones personalizadas para cada cliente, adaptándonos a sus requerimientos y objetivos específicos.</p>
-                <h3><span>2</span> Desarrollo de Aplicaciones Móviles</h3>
-                <p>Diseñamos y desarrollamos aplicaciones móviles para iOS y Android que ofrecen una experiencia de usuario excepcional.</p>
-                <h3><span>3</span>Sistemas Web</h3>
-                <p>Desarrollamos sistemas web robustos y escalables para empresas de cualquier tamaño, garantizando su funcionamiento óptimo en línea.</p>
+            <div id="boton-mas">
+              <button type="button" class="btn btn-outline-success">Mas</button>
             </div>
-        </div>
-        <div class="contenedor-sobre-nosotros">
             
-            <div class="texto-sobre-nosotros">
+        </div>
+        
+    </header>
+    <section >
+        <h2>Nosotros</h2>
+        <div class="row">
+          <div class="col-md-12 col-lg-12  col-xl-12    col-sm-12  col-xs-12     text-lg-center text-md-center" >
+            <div class="contenedor-sobre-nosotros">
+              <img src="/img/cf2.jpg" alt="" width="530" height="510">
+              <div class="texto-sobre-nosotros">
+                  <h3><span>1</span> Desarrollo de Software a Medida</h3>
+                  <p>Creamos soluciones personalizadas para cada cliente, adaptándonos a sus requerimientos y objetivos específicos.</p>
+                  <h3><span>2</span> Desarrollo de Aplicaciones Móviles</h3>
+                  <p>Diseñamos y desarrollamos aplicaciones móviles para iOS y Android que ofrecen una experiencia de usuario excepcional.</p>
+                  <h3><span>3</span>Sistemas Web</h3>
+                  <p>Desarrollamos sistemas web robustos y escalables para empresas de cualquier tamaño, garantizando su funcionamiento óptimo en línea.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-12  col-xl-12    col-sm-12  col-xs-12      text-lg-center text-md-center" >
+           <div class="contenedor-sobre-nosotros1">
+              <div class="texto-sobre-nosotros1">
                 <h3><span>4</span> Soluciones de E-Commerce</h3>
                 <p>Creamos plataformas de comercio electrónico intuitivas y seguras, facilitando la gestión y venta de productos y servicios en línea.</p>
                 <h3><span>5</span> Integración de Sistemas</h3>
@@ -85,7 +84,13 @@
                 <p>Brindamos servicios de mantenimiento continuo y soporte técnico para garantizar el rendimiento y la confiabilidad de las soluciones que ofrecemos.</p>
             </div>
             <img src="/img/cf3.jpg" alt="" width="540" height="510">
+          </div>
+          </div>
+          
+
+
         </div>
+ 
     </section>
    
     <footer class="footer-distributed">
@@ -108,15 +113,17 @@
               <a href="#">Contact</a>
             </p>
     
-            <p class="footer-company-name">CodeCAffe© 2023</p>
+            <p class="footer-company-name">CodeCAffeSoft© 2023</p>
     
             <div class="footer-icons">
     
-              <a href="/img/iconos/icons8-whatsapp.gif"><img src="/img/iconos/icons8-whatsapp (1).gif" alt="" width="20" height="20"><i class="fa fa-whatssap"></i></a>
-              <a href="/img/iconos/Imagen1.ico"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-github"></i></a>
+              <a href="/img/iconos/icons8-whatsapp.gif"><img src="/img/iconos/whatsapp.png" alt="" width="40" height="40"><i class="fa fa-whatssap"></i></a>
+              <a href="/img/iconos/Imagen1.ico"><img src="/img/iconos/facebook.png" alt=""  width="40" height="40"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"><img src="/img/iconos/gorjeo.png" alt=""  width="40" height="40"></i></a>
+              <a href="#"><i class="fa fa-linkedin"><img src="/img/iconos/linkedin.png" alt=""  width="40" height="40"></i></a>
+              <a href="#"><i class="fa fa-github"><img src="/img/iconos/github.png" alt=""  width="40" height="40"></i></a>
+              <a href="#"><i class="fa fa-telegram"><img src="/img/iconos/telegram.png" alt=""  width="40" height="40"></i></a>
+              <a href="#"><i class="fa fa-youtube"><img src="/img/iconos/youtube.png" alt=""  width="40" height="40"></i></a>
     
             </div>
     
@@ -137,5 +144,10 @@
           </div>
     
         </footer>
+      <!-- cdn de particulas
+      <script src="/js/particles.min.js"></script>-->
+      <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+      <script src="/js/app.js"></script>
 </body>
 </html>
