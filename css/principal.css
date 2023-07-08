@@ -67,10 +67,41 @@ body{
   /* section */
   
   
+  .containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+
+.row{
+  margin-top: 5%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-
-
-
+  
+}
+#carouselExampleCaptions{
+  
+  text-align: center;
+  
+}
+.carousel-inner{
+  display: inline-block;
+}
+.video{
+  
+  text-align: center;
+  display: inline-block;
+}
+.descargar{
+  text-align: center;
+  display: inline-block;
+}
 
 
 
